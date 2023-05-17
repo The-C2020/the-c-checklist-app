@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+fieldset {
+  font-size: 2.4em;
+  padding: 0.2em 0;
+  border-radius: 1em;
+  border: none;
+}
+
+fieldset label,
+input,
+button {
+  font-size: inherit;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: rgb(247, 248, 249);
+}
+
+.savePlayerButton {
+  width: 100%;
+  cursor: pointer;
+  background-color: green;
+  font-size: 2.4rem;
+  padding: 0.2rem 1rem;
+  border-radius: 4px;
+  border: none;
+  font-family: inherit;
+  margin-top: 1rem;
+}
+
+.savePlayerButton:hover {
+  background-color: rgb(4, 109, 4);
+}
+
+.btnAddPlayer {
+  background-color: cornflowerblue;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40px;
+}
+
+.btnAddPlayer:hover {
+  background-color: rgb(66, 111, 196);
+}
+
+.btnRemovePlayer {
+  background-color: crimson;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 40px;
+}
+
+.btnRemovePlayer:hover {
+  background-color: rgb(168, 20, 49);
+}
+
+.popup-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  position: relative;
+}
